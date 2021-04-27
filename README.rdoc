@@ -1,3 +1,10 @@
+# Simple Rails Blog
+
+## Getting Started
+
+- If running the app from Vagrant, then use `bin/rails server -b 0.0.0.0` to ensure there are no port conflicts.
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
