@@ -9,7 +9,7 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
 
     @article.save
-    redirect_to @article
+    redirect_to @article if @article.save
   end
 
   private
